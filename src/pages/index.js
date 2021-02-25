@@ -1,4 +1,5 @@
 import React from "react"
+import ContactUs from "../components/ContactUs"
 import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -13,7 +14,7 @@ const IndexPage = () => (
     <Trips heading="Our Favorite Destination" />
     <Testimonials />
     <Stats />
-
+    <ContactUs />
   </Layout>
 )
 
