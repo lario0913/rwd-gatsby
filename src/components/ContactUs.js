@@ -67,13 +67,13 @@ const ContactUsContainer = styled.div`
 
 
 const ContactUsContent = styled.div`
-    display: flex:
+    display: flex;
     flex-direction: column;
     align-items: center;
 
     h1{
         text-align: center;
-        margin-top: 1rem;
+        margin-bottom: 1rem;
         font-size: clamp(1rem, 5vw, 3rem);
         padding: 0 1rem;
     }
@@ -90,7 +90,6 @@ const ContactUsContent = styled.div`
     }
 `
 const FormWrap = styled.div`
-
     input{
         padding: 1rem 1.5rem;
         outline: none;
@@ -104,11 +103,12 @@ const FormWrap = styled.div`
     @media screen and (max-width: 768px){
         display: flex;
         flex-direction: column;
-        padding: 0 1rem;
+        padding: 0 0;
+        width: 100%;
 
         input{
             margin-bottom: 1rem;
-            width: 100%;
+            width: 350px;
             margin-right: 0;
         }
     }
